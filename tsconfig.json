@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "jsx": "preserve",
+        "target": "esnext",
+        "module": "commonjs",
+        "outDir": "./build/frontend",
+        "baseUrl": "src",
+        "rootDir": "src",
+        "allowJs": false,
+        "declaration": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "alwaysStrict": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
